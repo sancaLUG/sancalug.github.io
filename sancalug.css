@@ -1,0 +1,52 @@
+h1 {
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.subtitle {
+  text-align: center;
+  margin-top: 0;
+  font-weight: 400;
+  font-style: italic;
+}
+
+img.logo {
+  margin: auto;
+  border-radius: 10%;
+  height: 6em;
+/*  display: inline-block;*/
+  vertical-align: middle;
+}
+
+header {
+  display: inline-block;
+/*  text-align: center;*/
+  vertical-align: middle;
+  margin-left: 2em;
+}
+
+img.t-antibot{
+  vertical-align: middle;
+}
+
+ul {padding-left: 1rem;}
+
+@media (max-width: 600px) {
+    h1 {
+/*      font-size: 1.3em;*/
+      text-align: center;
+    }
+      
+/*    .subtitle {font-size: 0.75em;}*/
+    
+    img.logo {
+/*      height: 5em;*/
+      display: block;
+    }
+    
+    header {
+      display: block;
+      margin-left: 0em;
+    }
+}
