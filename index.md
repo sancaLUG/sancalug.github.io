@@ -1,7 +1,7 @@
 ---
 pandoc-render-cmd: pandoc -s index.md --template sancalug-template.html -o index.html
 css: 'https://cdn.jsdelivr.net/npm/water.css@2/out/dark.min.css'
-extra-css: 'sancalug.css'
+extra-css: './assets/sancalug.css'
 lang: 'pt-BR'
 title: 'sancaLUG'
 subtitle: 'Linux e cultura livre @ São Carlos-SP'
@@ -11,13 +11,11 @@ logo: './assets/logo.png'
 <!--<nav>-->
 <!--  <details open=""> <summary>Sumário</summary>-->
 <!--      <ol>-->
-<!--      <li><a href="#grupo-de-usuários-de-linux-de-são-carlos-sp">Introdução</a></li>-->
+<!--      <li>Introdução</li>-->
 <!--      <li><a href="#encontros-e-eventos">Encontros e eventos</a></li>-->
 <!--      </ol>-->
 <!--  </details>-->
 <!--</nav>-->
-
-<!--## Grupo de usuários de Linux de São Carlos-SP-->
 
 **Olá!** :)  
 O sancaLUG é um grupo que celebra software, hardware e cultura livre em geral, na cidade de São Carlos e região.
